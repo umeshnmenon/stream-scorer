@@ -1,4 +1,4 @@
-# ml-stream
+# stream-scorer
 
 This package helps implement a streaming prediction pipeline on Kafka Stream. This means the streaming component can read
 data from an input topic, do some preprocessing, load the model and predict and store the results back to another output
