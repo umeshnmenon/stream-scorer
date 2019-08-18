@@ -5,7 +5,7 @@
 	<property name="predict.log.level" value="DEBUG"/>
 	<appender name="FILE-AUDIT"
 			  class="ch.qos.logback.core.rolling.RollingFileAppender">
-		<file>${log_home}/component-score-processor.log</file>
+		<file>${log_home}/ml-stream.log</file>
 		<encoder class="ch.qos.logback.classic.encoder.PatternLayoutEncoder">
 			<Pattern>
 				%date{yyyy-MM-dd HH:mm:ss.SSS} %level [%thread] [%logger{5}:%line] - %msg%n
