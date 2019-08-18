@@ -15,7 +15,7 @@
         <avro.version>1.8.2</avro.version>
         <slf4j>1.7.25</slf4j>
         <logback>1.2.3</logback>
-        <jackson.version>2.9.8</jackson.version>
+        <jackson.version>2.9.9.2</jackson.version>
     </properties>
     <repositories>
         <repository>
@@ -49,7 +49,7 @@
         <dependency>
             <groupId>com.fasterxml.jackson.core</groupId>
             <artifactId>jackson-databind</artifactId>
-            <version>${jackson.version}</version>
+            <version>[2.9.9.2,)</version>
         </dependency>
         <dependency>
             <groupId>org.apache.kafka</groupId>
